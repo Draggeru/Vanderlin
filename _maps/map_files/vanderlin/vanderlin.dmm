@@ -3381,6 +3381,9 @@
 /obj/structure/lever{
 	redstone_id = "thronegrille"
 	},
+/obj/structure/fluff/walldeco/customflag{
+	pixel_y = 32
+	},
 /turf/open/floor/carpet/lord/left,
 /area/rogue/indoors/town/manor)
 "ciV" = (
@@ -5187,10 +5190,13 @@
 /turf/open/floor/wood,
 /area/rogue/indoors/soilsons)
 "dEp" = (
-/obj/structure/throne{
+/obj/structure/fake_machine/titan{
+	pixel_y = 32
+	},
+/obj/structure/toilet{
 	name = "Throne of Vanderlin"
 	},
-/obj/structure/fake_machine/titan{
+/obj/structure/fluff/walldeco/wallshield{
 	pixel_y = 32
 	},
 /turf/open/floor/carpet/lord/center,
@@ -30561,6 +30567,9 @@
 	pixel_y = 7
 	},
 /obj/structure/table/wood/reinf_long,
+/obj/structure/fluff/walldeco/customflag{
+	pixel_y = 32
+	},
 /turf/open/floor/carpet/lord/right,
 /area/rogue/indoors/town/manor)
 "viI" = (
