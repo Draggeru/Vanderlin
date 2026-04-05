@@ -160,3 +160,16 @@
 				return  "It appears heavily damaged."
 			if(1 to 25)
 				return  "<span class='warning'>It's falling apart!</span>"
+
+//invisible wall for mapping
+/obj/structure/barrier
+	icon = 'icons/roguetown/items/food.dmi'
+	max_integrity = 10000000
+	damage_deflection = 999999999
+	icon_state = MAP_SWITCH(null, "badmapper")
+	interaction_flags_atom = INTERACT_ATOM_ATTACK_HAND | INTERACT_ATOM_UI_INTERACT
+	layer = BELOW_OBJ_LAYER
+	anchored = TRUE
+	density = TRUE
+	pass_flags_self = PASSSTRUCTURE
+

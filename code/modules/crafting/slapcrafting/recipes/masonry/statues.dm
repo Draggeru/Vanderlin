@@ -184,6 +184,23 @@
 	result_type = /obj/structure/fluff/statue/astrata/bling
 	craftdiff = 5
 
+/datum/slapcraft_recipe/masonry/structure/statue/noc
+	name = "noc statue"
+	steps = list(
+		/datum/slapcraft_step/structure/carving_block,
+		/datum/slapcraft_step/use_item/masonry/chisel,
+		/datum/slapcraft_step/item/stoneblock,
+		/datum/slapcraft_step/item/stoneblock/second,
+		/datum/slapcraft_step/item/silver,
+		/datum/slapcraft_step/item/cloth,
+		/datum/slapcraft_step/use_item/masonry/hammer,
+		/datum/slapcraft_step/use_item/masonry/chisel/second,
+		/datum/slapcraft_step/use_item/masonry/hammer/second,
+		/datum/slapcraft_step/use_item/masonry/chisel/third,
+		)
+	result_type = /obj/structure/fluff/statue/astrata/noc
+	craftdiff = 5
+
 /* ay.dmi */
 
 /datum/slapcraft_recipe/masonry/structure/statue/fstatue
