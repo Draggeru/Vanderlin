@@ -31762,6 +31762,11 @@
 "tuj" = (
 /turf/open/floor/wood,
 /area/under/town/basement)
+"tul" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/fluff/statue/knight/r,
+/turf/open/floor/grass/eora,
+/area/under/town/basement)
 "tuD" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -58875,15 +58880,15 @@ qJl
 qJl
 dkb
 aLB
-aLB
-aLB
-dkb
-aLB
-aLB
+tul
 aLB
 dkb
 aLB
+tul
 aLB
+dkb
+aLB
+tul
 aLB
 dkb
 dkb
